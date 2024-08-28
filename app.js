@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let currency = {
     USD: 1,
@@ -32,6 +33,3 @@ let fix = total.toFixed(2);
 console.log(fix);
 // let fix = total.toPrecision(2)
 // console.log(fix);
-// console.log(`${total}`);
-// console.log(from_curr);
-// console.log(to_curr);
